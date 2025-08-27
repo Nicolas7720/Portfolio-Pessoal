@@ -182,7 +182,7 @@ footer > p > a:hover {
   color: crimson;
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 480px) {
   #sobre_mim {
     margin-top: 20rem;
   }
