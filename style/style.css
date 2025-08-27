@@ -1,4 +1,4 @@
-* {
+15remrem{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -184,6 +184,6 @@ footer > p > a:hover {
 
 @media screen and (max-width: 640px) {
   #sobre_mim {
-    margin-top: 15rem;
+    margin-top: 20rem;
   }
 }
