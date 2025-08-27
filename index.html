@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio do Nicolas Antônio</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#sobre_mim">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre_mim">
+        <h1>Sobre mim</h1>
+        <p>
+          Olá, meu nome é Nicolas, sou Estudante de engenharia de software na
+          UNINTER e sou apaixonado por tecnologia. Atualmente estou no
+          <strong>3° semestre da faculdade</strong>
+        </p>
+        <p>
+          Gosto de criar projetos de programação, aprender novas linguagens e
+          sempre buscar evolução na área de TI. No meu tempo livre gosto de ler,
+          jogar e explorar novas ferramentas de desenvolvimento.
+        </p>
+      </section>
+      <section id="formacao">
+        <h2>Formação</h2>
+        <p>🎓 Cursando engenharia de software - UNINTER (3° semestre)</p>
+        <h3>Cursos complementáres na Alura</h3>
+        <ul>
+          <li>HTML e CSS</li>
+          <li>JavaScript</li>
+          <li>Tailwind</li>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Java</li>
+          <li>Git e Github</li>
+        </ul>
+        <h3>Estudos Atuais</h3>
+        <p>
+          📖 Atualmente estou estudando <strong>Java</strong> e iniciando os
+          primeiros passo em <strong>Spring Boot</strong>
+        </p>
+      </section>
+      <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aqui estão alguns dos meus projeto:</p>
+        <ul>
+          <li>
+            <div>
+              <img src="Site_culturama.png" alt="Imagem do site culturama" />
+            </div>
+            <div>
+              <h3>Culturama</h3>
+              <a href="https://nicolas7720.github.io/Culturama/" target="_blank"
+                >Acesar</a
+              >
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="Projeto_android.png" alt="Imagem do projeto android" />
+            </div>
+            <div>
+              <h3>Projeto Android</h3>
+              <a
+                href="https://nicolas7720.github.io/projeto-android/"
+                target="_blank"
+                >Acessar</a
+              >
+            </div>
+          </li>
+          <li>
+            <div>
+              <img
+                src="Projeto_onePiece.png"
+                alt="Imagem do projeto one piece"
+              />
+            </div>
+            <div>
+              <h3>Projeto One Piece</h3>
+              <a href="https://nicolas7720.github.io/One-Piece/" target="_blank"
+                >Acessar</a
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite o seu nome"
+            required
+          />
+          <label for="gmail">E-mail:</label>
+          <input
+            type="email"
+            name="gmail"
+            id="gmail"
+            required
+            placeholder="Digite o seu e-mail"
+          />
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            name="mensagem"
+            id="Mensagem"
+            placeholder="Digite a sua mensagem"
+            required
+          ></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <a href="https://github.com/Nicolas7720" target="_blank"
+          >Nicolas Antonio</a
+        >
+        &copy;
+        <span class="ano"></span>
+      </p>
+    </footer>
+    <script>
+      const data = document.querySelector(".ano");
+      const ano = new Date().getFullYear();
+      data.textContent = ano;
+    </script>
+  </body>
+</html>
