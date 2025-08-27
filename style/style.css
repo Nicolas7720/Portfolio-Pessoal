@@ -182,8 +182,47 @@ footer > p > a:hover {
   color: crimson;
 }
 
-@media (max-width: 640px) {
-  #sobre_mim {
-    margin-top: 20rem;
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 60px 15px;
+    margin-top: 30px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
 }
