@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100dvh;
   scroll-behavior: smooth;
-  line-height: 20px;
+  line-height: 30px;
 }
 header {
   height: 10%;
