@@ -21,18 +21,18 @@ header {
   z-index: 2;
   background-color: #222;
 }
-nav > ul {
+header > nav > ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
-nav > ul > li > a {
+header > nav > ul > li > a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
-nav > ul > li > a:hover {
+header > nav > ul > li > a:hover {
   font-size: 1.04rem;
 }
 main > section {
@@ -180,4 +180,14 @@ footer > p > a {
 }
 footer > p > a:hover {
   color: crimson;
+}
+@media screen and (max-width: 640px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  header > nav {
+    width: 100%;
+  }
 }
