@@ -14,7 +14,7 @@ header {
   height: 10%;
   width: 100%;
 
-  padding: 2rem;
+  padding: 1.8rem 2rem;
 
   position: fixed;
   top: 0;
@@ -40,7 +40,7 @@ main > section {
 }
 
 #sobre_mim {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 h1,
 h2 {
