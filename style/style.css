@@ -40,7 +40,7 @@ main > section {
 }
 
 #sobre_mim {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 h1,
 h2 {
@@ -180,4 +180,10 @@ footer > p > a {
 }
 footer > p > a:hover {
   color: crimson;
+}
+
+@media screen and (max-width: 640px) {
+  #sobre_mim {
+    margin-top: 15rem;
+  }
 }
